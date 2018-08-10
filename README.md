@@ -12,5 +12,6 @@ THEN:
 - `npm install`
 - `react-native link`
 - to run on iOS: `react-native run-ios --device="Your iPhone's device name"`
--- NOTE: you may need to open `ios/beaker.xcodeproj` in XCode and select a valid development team.
+- - NOTE: you may need to open `ios/beaker.xcodeproj` in XCode and select a valid development team.
 - to run on Android: `react-native run-android`
+- - NOTE: you may need to do `adb reverse tcp:8081 tcp:8081` first so Android targets can find the development server.
