@@ -1,7 +1,5 @@
 rootProject.name = 'beaker'
 include ':react-native-ibeacon-simulator'
 project(':react-native-ibeacon-simulator').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ibeacon-simulator/android')
-include ':@kingstinct_react-native-ibeacon-simulator'
-project(':@kingstinct_react-native-ibeacon-simulator').projectDir = new File(rootProject.projectDir, '../node_modules/@kingstinct/react-native-ibeacon-simulator/android')
 
 include ':app'
